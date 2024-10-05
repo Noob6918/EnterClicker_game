@@ -3,7 +3,9 @@
 
 // defines "game" that is used for some variables in this game
 // i probably dont need this since i cant use "."
-// in the variable name
+// in the variables name
+
+
 #define game
 
 
@@ -60,11 +62,12 @@ int load_game(int clicks, int multi) {
   scanf("%c", &enter);
 
   if (strcmp(&enter, &supersecret) == 1) {
-    clicks = clicks + multi;
+    clicks++;
     system("clear");
     load_game(clicks, multi);
   } else {
-    clicks = clicks + multi;
+
+    clicks++;
     system("clear");
     load_game(clicks, multi);
   } // this code is ugly af
