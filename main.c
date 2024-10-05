@@ -18,10 +18,11 @@ int main() {
   int game_clicks = 0;
   int game_multi = 1;
   int game_clicks_Ps = 0;
+  // variables
 
   
 
-  load_game(game_clicks, game_multi);
+  load_game(game_clicks, game_multi); // calls the load_game func
   return 0;
 }
 
@@ -41,11 +42,11 @@ int load_game(int clicks, int multi) {
     "#########",
     " #######",
 
-  };
+  }; // game ascii art made by noob(onwer)
 
   // declares the char enter
   char enter;
-  char* supersecret = "supersecret";
+  char* supersecret = "supersecret"; // super secret string
   
 
   // prints the game
