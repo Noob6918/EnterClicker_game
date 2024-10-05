@@ -4,10 +4,16 @@
 // defines "game" that is used for some variables in this game
 // i probably dont need this since i cant use "."
 // in the variables name
+
+/* 
+* i'l start commenting more later
+*/
 #define game
+
 
 int load_game(int clicks, int multi);
 int onTick();
+
 
 int main() {
 
@@ -41,6 +47,7 @@ int load_game(int clicks, int multi) {
 
   // declares the char enter
   char enter;
+  char* supersecret = "supersecret";
   
 
   // prints the game
@@ -52,26 +59,24 @@ int load_game(int clicks, int multi) {
 
   printf("%d clicks\n", clicks);
   printf("%d multi\n", multi);
-
-
-  printf("press enter");
+  
+  printf("press enter: ");
   scanf("%c", &enter);
 
-
-  if (strcmp(&enter, "supers3cr3t") == 0) {
+  if (strcmp(&enter, &supersecret) == 1) {
     clicks = clicks + multi;
     system("clear");
     load_game(clicks, multi);
-
   } else {
     clicks = clicks + multi;
     system("clear");
     load_game(clicks, multi);
-  }
+  } // this code is ugly af
+
+
 
   return clicks;
 
 
-
-
 }
+
