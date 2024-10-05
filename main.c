@@ -3,11 +3,7 @@
 
 // defines "game" that is used for some variables in this game
 // i probably dont need this since i cant use "."
-// in the variables name
-
-/* 
-* i'l start commenting more later
-*/
+// in the variable name
 #define game
 
 
