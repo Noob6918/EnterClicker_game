@@ -10,7 +10,7 @@ made by an idiot using android
 
 ## installation
 1. install git
-2. run the following command(linux) `mkdir ~/EnterClicker` and `git clone https://github.com/Noob6918/EnterClicker_game ~/EnterClicker
+2. run the following command(linux) `mkdir ~/EnterClicker` and `git clone https://github.com/Noob6918/EnterClicker_game ~/EnterClicker`
 3. compile
 
 
