@@ -3,8 +3,6 @@ a simple terminal based game about pressing enter
 written in c
 made by an idiot using android
 
-git f*cked up on termux so development
-tempronaly paused
 ## why i made this
 1. to get better at programing
 2. to understand how GitHub works
