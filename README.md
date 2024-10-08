@@ -9,8 +9,8 @@ made by an idiot using android
 3. i dont know
 
 ## installation
-1. go to releases and download the .zip file
-btw the zip file has the source code of the release and the game
-
+1. install git
+2. run the following command(linux) `mkdir ~/EnterClicker` and `git clone https://github.com/Noob6918/EnterClicker_game ~/EnterClicker
+3. compile
 
 
