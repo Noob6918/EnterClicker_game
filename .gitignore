@@ -53,3 +53,7 @@ dkms.conf
 
 # zip files
 .zip
+
+# bash scripts (install sctipts)
+.sh
+
