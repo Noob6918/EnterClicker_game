@@ -1,3 +1,9 @@
+# sections
+(#Enter-Clicker)
+(#why-i-made-this)
+(#installation-(manual))
+
+
 ## Enter Clicker
 a simple terminal based game about pressing enter
 written in c
