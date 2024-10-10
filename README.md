@@ -1,3 +1,6 @@
+# sections
+(##Enter-Clicker)
+
 
 ## Enter Clicker
 a simple terminal based game about pressing enter
